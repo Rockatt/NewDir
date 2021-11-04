@@ -1,0 +1,10 @@
+Unit Test
+
+Test to determine the functionality of "Add Item To Basket" button
+
+1. When 1 item is selected and Button pressed the item should appear in the customers basket.
+
+2. When multiple items are selected and the button pressed all the chosen items should appear in the basket.
+
+3. When no items are selected and the Button is pressed no items should appear in the basket
+
