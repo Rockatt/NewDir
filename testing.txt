@@ -12,9 +12,11 @@ Integration Testing
 
 Test to determine communication functionality.
 
-1. Confirm that when button pressed a syncronise HTTP request is created at the microservice.
+1. Confirm that when button pressed a syncronise HTTP PUT request is created and received at the microservice.
 
-2. Confirm that request from Microservice to DB is received and response received at Microservice with Status Code.
+2. Confirm that GET request from Microservice to DB is received
+
+3. Confirm that response from GET request is received at Microservice with Status Code.
 
 3. Confirm that response from Microservice to Front End received. 
 
