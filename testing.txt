@@ -22,9 +22,9 @@ System Testing
 
 Test to determine full system functionality
 
-1. When 1 item is selected at Front End by the user and the button is selected a successful response should be received by the user and also the DB should be updated to alter the count of stock items. Users Basket (DB?) should also contain the users selected item.
+1. When 1 item is selected at Front End by the user and the button is selected a successful response 202 "Basket Updated" should be received by the user and also the DB should be updated to alter the count of stock items. Users Basket (DB?) should also contain the users selected item.
 
-2. When multiple items are selected at the front end by user, a successful response should be received by the user and the DB should be updated to alter the stock count. Users basket (DB?) should also contain the selected items.
+2. When multiple items are selected at the front end by user, a successful response 202 "Basket Updated" should be received by the user and the DB should be updated to alter the stock count. Users basket (DB?) should also contain the selected items.
 
 3. User selects add to basket when no item selected. Response from Microservice should return 400 "No Items Selected".
 
