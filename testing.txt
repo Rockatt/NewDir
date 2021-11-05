@@ -28,4 +28,18 @@ Test to determine full system functionality
 
 3. User selects add to basket when no item selected. Response from Microservice should return 400 "No Items Selected".
 
+User Acceptance Testing
+
+Design a test based on original requirements of Customer
+
+As a customer i would like to select a product from the webpage and add to my shopping basket.
+
+Given the user is on the product page and has selected an item they wish to purchase
+When the user selects the "Add to Basket" button 
+Then the users basket should be updated
+
+Given the user is on the product page and has selected no items from the product page
+When the user selects the "Add to Basket" button
+Then an error should be returned that "No Items Have been Selected".
+
 
