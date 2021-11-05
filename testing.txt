@@ -8,3 +8,12 @@ Test to determine the functionality of "Add Item To Basket" button
 
 3. When no items are selected and the Button is pressed no items should appear in the basket
 
+Integration Testing
+
+Test to determine communication functionality.
+
+1. Confirm that when button pressed a syncronise HTTP request is created at the microservice.
+
+2. Confirm that request from Microservice to DB is received and response received at Microservice with Status Code.
+
+3. Confirm that response from Microservice to Front End received. 
